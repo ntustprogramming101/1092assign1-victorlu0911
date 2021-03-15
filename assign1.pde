@@ -62,6 +62,9 @@ void draw() {
   fill(253, 184, 19);
   ellipse(590,50,120,120);
   
+    //groundhog
+  image(groundhogImg,width/2-40,80);
+  
   //life
   image(lifeImg,10,10);
   image(lifeImg,80,10);
